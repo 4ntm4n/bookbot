@@ -25,7 +25,7 @@ def get_char_analysis(dict):
     
 
 def char_count(text):
-    filter = "abcdefghiljlmnopqrstuvwxyz.:/"
+    filter = "abcdefghijklmnopqrstuvwxyz.:/"
     char = {}
     for c in text:
         lc = c.lower()
